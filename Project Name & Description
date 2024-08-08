@@ -1,0 +1,7 @@
+Social Distancing DetectorSocial Distancing Detector
+
+Used YOLO pre-trained model trained on COCO dataset. 
+That pre-trained model also contains person class. 
+So, we made sure that we only detect person class 
+while performing Social Distancing Detector since COCO dataset is based on 80 classes.
+We specified the index of Label person accordingly to our YOLO pre-trained model and its corresponding config file.

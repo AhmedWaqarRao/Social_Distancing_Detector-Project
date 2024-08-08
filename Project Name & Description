@@ -5,3 +5,18 @@ That pre-trained model also contains person class.
 So, we made sure that we only detect person class 
 while performing Social Distancing Detector since COCO dataset is based on 80 classes.
 We specified the index of Label person accordingly to our YOLO pre-trained model and its corresponding config file.
+
+
+
+
+
+
+
+Implemented Social Distancing Detector. 
+Used YOLO pre-trained model trained on COCO dataset. That pre-trained model also contains person class.
+So, make sure that only one class is detected while performing Social Distancing Detector since the COCO dataset is based on 80 classes. 
+So specify the index of the Label person accordingly to the YOLO pre-trained model and 
+its corresponding config file. Computed Euclidean distance between the bounding boxes, 
+if that distance turns out to be less than 50 pixels than that is considered as a violation.
+P.S: The text underneath which shows the total violations is computed for every frame.
+Complete code and further information can be accessed from my Github repo:
